@@ -78,7 +78,7 @@ Error generating stack: `+i.message+`
     font-weight: ${e=>e.theme.fontWeight};
     font-size: clamp(2.7rem, 7vw, 4.2rem);
     letter-spacing: 1px;
-`;function ya(e){return z.jsxs(Gi,{"data-main":"",children:[z.jsxs(Gi,{className:"container",children:[z.jsx(jm,{children:e.billTitle}),z.jsx("small",{children:"/ person"})]}),z.jsxs(Gi,{className:"container",children:[z.jsx("img",{src:"./src/assets/icon-dollar.svg",alt:"dollar icon"}),z.jsx(Dm,{children:e.result})]})]})}const Mm=ge.label`
+`;function ya(e){return z.jsxs(Gi,{"data-main":"",children:[z.jsxs(Gi,{className:"container",children:[z.jsx(jm,{children:e.billTitle}),z.jsx("small",{children:"/ person"})]}),z.jsxs(Gi,{className:"container",children:[z.jsx("img",{src:"./tip-calculator-app-main/src/assets/icon-dollar.svg",alt:"dollar icon"}),z.jsx(Dm,{children:e.result})]})]})}const Mm=ge.label`
     display: inline-block;
     color: ${e=>e.theme.colors.DarkGrayishCyan};
     font-weight: ${e=>e.theme.fontWeight};
@@ -132,7 +132,7 @@ Error generating stack: `+i.message+`
     width: 90%;
 
     @media (min-width: 768px) {&:hover {cursor: pointer;}}
-`;function va(e){return z.jsxs(Ki,{"data-main":"",children:[z.jsxs(Ki,{className:"label-field",children:[z.jsx(rd,{labelName:e.labelName}),z.jsx(Am,{children:e.inputState.spanMensage})]}),z.jsxs(Ki,{className:`input-field ${e.inputState.inputWrong}`,children:[z.jsx("img",{src:`./src/assets/icon-${e.imageName}.svg`,alt:`${e.imageName} icon`}),z.jsx(Fm,{placeholder:e.imageName==="dollar"?0:1,value:e.inputState.inputValue,onChange:t=>e.changeBillAndNumberOfPeopleInputValue(t.target.value,e.dispatch,e.isNumberOfPeople)})]})]})}const un=ge.div`
+`;function va(e){return z.jsxs(Ki,{"data-main":"",children:[z.jsxs(Ki,{className:"label-field",children:[z.jsx(rd,{labelName:e.labelName}),z.jsx(Am,{children:e.inputState.spanMensage})]}),z.jsxs(Ki,{className:`input-field ${e.inputState.inputWrong}`,children:[z.jsx("img",{src:`./tip-calculator-app-main/src/assets/icon-${e.imageName}.svg`,alt:`${e.imageName} icon`}),z.jsx(Fm,{placeholder:e.imageName==="dollar"?0:1,value:e.inputState.inputValue,onChange:t=>e.changeBillAndNumberOfPeopleInputValue(t.target.value,e.dispatch,e.isNumberOfPeople)})]})]})}const un=ge.div`
     &[data-main] {
         display: flex;
         flex-direction: column;
