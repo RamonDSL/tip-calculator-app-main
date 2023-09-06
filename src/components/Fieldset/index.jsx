@@ -11,7 +11,7 @@ function Fieldset(props) {
         </Container>
 
         <Container className={`input-field ${props.inputState.inputWrong}`}>
-          <img src={`./src/assets/icon-${props.imageName}.svg`} alt={`${props.imageName} icon`}/>
+          <img src={`./tip-calculator-app-main/src/assets/icon-${props.imageName}.svg`} alt={`${props.imageName} icon`}/>
           
           <Input 
             placeholder={props.imageName === "dollar" ? 0 : 1}
