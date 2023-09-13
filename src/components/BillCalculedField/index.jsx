@@ -11,7 +11,7 @@ function BillCalculedField(props) {
             <small>/ person</small>
         </Container>
         <Container className='container'>
-            <img src="./tip-calculator-app-main/src/assets/icon-dollar.svg" alt="dollar icon"/>
+            <img src="./icon-dollar.svg" alt="dollar icon"/>
 
             <BillValue>{props.result}</BillValue>
         </Container>

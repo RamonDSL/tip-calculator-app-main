@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Label from "../Label";
 import { Container, SpanError, Input } from './styles';
 
@@ -11,7 +11,7 @@ function Fieldset(props) {
         </Container>
 
         <Container className={`input-field ${props.inputState.inputWrong}`}>
-          <img src={`./src/assets/icon-${props.imageName}.svg`} alt={`${props.imageName} icon`}/>
+          <img src={`./icon-${props.imageName}.svg`} alt={`${props.imageName} icon`}/>
           
           <Input 
             placeholder={props.imageName === "dollar" ? 0 : 1}

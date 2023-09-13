@@ -5,7 +5,7 @@ import { Container } from './styles';
 function Header() {
   return (
     <Container as="header">
-        <img src="./src/assets/logo.svg" alt="logo icon" />
+        <img src="./logo.svg" alt="logo icon" />
     </Container>
   );
 }
